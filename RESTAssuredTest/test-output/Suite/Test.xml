@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="YESpays-iMac-2.local" name="WPOSAPI.PinCHip" tests="17" failures="1" timestamp="2 Jan 2019 09:39:27 GMT" time="36.453" errors="0">
+  <testcase name="Login" time="4.147" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Login" time="1.093" classname="WPOSAPI.contactless"/>
+  <testcase name="Login" time="1.04" classname="WPOSAPI.swipe"/>
+  <testcase name="Merchant" time="6.117" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Merchant" time="6.06" classname="WPOSAPI.contactless"/>
+  <testcase name="Merchant" time="6.058" classname="WPOSAPI.swipe"/>
+  <testcase name="Date" time="0.003" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Date" time="0.002" classname="WPOSAPI.contactless"/>
+  <testcase name="Date" time="0.001" classname="WPOSAPI.swipe"/>
+  <testcase name="Sale" time="1.151" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Sale" time="1.051" classname="WPOSAPI.contactless"/>
+  <testcase name="Sale" time="1.026" classname="WPOSAPI.swipe"/>
+  <testcase name="Auth" time="3.706" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Auth" time="0.001" classname="WPOSAPI.contactless"/>
+  <testcase name="SwipeAuth" time="1.023" classname="WPOSAPI.swipe">
+    <failure type="java.lang.AssertionError" message="1 expectation failed.
+Expected status code &amp;lt;201&amp;gt; but was &amp;lt;400&amp;gt;.
+">
+      <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at WPOSAPI.swipe.SwipeAuth(swipe.java:62)
+... Removed 35 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="capture" time="1.639" classname="WPOSAPI.PinCHip"/>
+  <testcase name="capture" time="2.298" classname="WPOSAPI.contactless"/>
+</testsuite>

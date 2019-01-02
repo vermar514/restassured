@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="YESpays-iMac-2.local" name="WPOSAPI.PinCHip" tests="6" failures="0" timestamp="2 Jan 2019 09:36:48 GMT" time="21.009" errors="0">
+  <testcase name="Login" time="7.642" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Merchant" time="6.104" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Date" time="0.128" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Sale" time="1.117" classname="WPOSAPI.PinCHip"/>
+  <testcase name="Auth" time="4.09" classname="WPOSAPI.PinCHip"/>
+  <testcase name="capture" time="1.905" classname="WPOSAPI.PinCHip"/>
+</testsuite>

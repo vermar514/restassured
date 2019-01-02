@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-GOMK6OD" name="TestFramework.basics" tests="9" failures="0" timestamp="21 Feb 2017 23:10:00 GMT" time="9.276" errors="0">
+  <testcase name="getPlaceAPI" time="4.99" classname="TestFramework.basics"/>
+  <testcase name="createPlaceAPI" time="0.331" classname="TestFramework.basics2"/>
+  <testcase name="AddandDeletePlace" time="0.569" classname="TestFramework.basics3"/>
+  <testcase name="postDataXML" time="0.401" classname="TestFramework.basics4"/>
+  <testcase name="extractingNamesAPI" time="1.207" classname="TestFramework.basics5"/>
+  <testcase name="JiraAPICreateIssue" time="0.614" classname="TestFramework.basics6"/>
+  <testcase name="JiraAPICreateComment" time="0.296" classname="TestFramework.basics8"/>
+  <testcase name="JiraAPIUpdate" time="0.481" classname="TestFramework.basics8"/>
+  <testcase name="JiraAPICreateComment" time="0.351" classname="TestFramework.basics7"/>
+</testsuite>
